@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: Set up go 1.x
-      uses: actions/step-go@v2
+    - name: Set up Go 1.x
+      uses: actions/steup-go@v2
       with:
         go-version: ^1.16
       id: go
