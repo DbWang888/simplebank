@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 04 21:18:00 2022
+# Make data base, printed on Mon Jul 04 21:44:22 2022
 
 # Variables
 
@@ -37,7 +37,7 @@ HOMEDRIVE = C:
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # makefile
-CURDIR := d:/ProgramPro/workspace/GoProject/simplebank
+CURDIR := d:/ProgramPro/workspace/go/simplebank
 # default
 SHELL := sh.exe
 # environment
@@ -63,7 +63,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-16e6e30c-86b8-4923-a443-30c395b42616-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-1a779120-740f-4160-8dc7-aefa4bb14092-sock
 # environment
 VSCODE_CWD = D:\Software\VScode\Microsoft VS Code
 # environment
@@ -101,7 +101,7 @@ INTELLIJ IDEA = D:\Software\IntelliJ IDEA 2020.2\bin;
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4020_CPVXQLMVGKJTVNGN
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5936_ZTSMGUQFPNWPHXUI
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -223,7 +223,7 @@ PROCESSOR_LEVEL = 23
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 4020
+VSCODE_PID = 5936
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-KAG98383
 # variable set hash-table stats:
@@ -235,7 +235,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-KAG98383
 
 # Directories
 
-# . (key d:/ProgramPro/workspace/GoProject/simplebank, mtime 1656940432): 11 files, no impossibilities.
+# . (key d:/ProgramPro/workspace/go/simplebank, mtime 1656940432): 11 files, no impossibilities.
 
 # 11 files, no impossibilities in 1 directories.
 
@@ -276,12 +276,12 @@ sqlc-generate:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 17):
-	docker run --rm -v "d:\ProgramPro\workspace\go\simplebank:/src" -w /src kjconroy/sqlc generate
+	docker run --rm -v "d:\ProgramPro\workspace\GoProject\simplebank:/src" -w /src kjconroy/sqlc generate
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-01 23:09:17
+#  Last modified 2022-07-04 21:18:29
 #  File has been updated.
 #  Successfully updated.
 
@@ -290,7 +290,7 @@ sqlc-init:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 20):
-	docker run --rm -v "d:\ProgramPro\workspace\go\simplebank:/src" -w /src kjconroy/sqlc init
+	docker run --rm -v "d:\ProgramPro\workspace\GoProject\simplebank:/src" -w /src kjconroy/sqlc init
 
 test:
 #  Implicit rule search has not been done.
@@ -351,6 +351,6 @@ migratedown:
 # strcache performance: lookups = 41 / hit rate = 41%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/41=2%
-# Finished Make data base on Mon Jul 04 21:18:00 2022
+# Finished Make data base on Mon Jul 04 21:44:22 2022
 
  
