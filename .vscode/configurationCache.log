@@ -1,1 +1,1 @@
-{"buildTargets":[".PHONY","createdb","dropdb","migratedown","migrateup","postgres","showgcc","sqlc-generate","sqlc-init","test"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
+{"buildTargets":[".PHONY","createdb","dropdb","migratedown","migrateup","postgres","server","showgcc","sqlc-generate","sqlc-init","test"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
