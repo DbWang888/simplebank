@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul 05 16:52:18 2022
+# Make data base, printed on Fri Jul 08 11:59:18 2022
 
 # Variables
 
@@ -63,7 +63,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3caa449b-e4a4-4638-9ae4-9adabf3b8c76-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5328f21a-28c2-479d-bb3e-111eb7aa1302-sock
 # environment
 VSCODE_CWD = D:\Software\VScode\Microsoft VS Code
 # environment
@@ -71,7 +71,7 @@ GOPROXY = https://goproxy.cn
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
-PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Software\tesseract\Tesseract-OCR;D:\Software\Git\cmd;D:\Golangenvr\bin;D:\Software\Xshell7\;D:\Software\Xftp7\;D:\Software\MySql\mysql-5.7.38-winx64\bin;;D:\Software\΢��web�����߹���\dll;D:\Software\node\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Software\scoop\shims;d:/Software/scoop\shims;D:\Program\Scripts\;D:\Program\;C:\Users\wangli\AppData\Local\Microsoft\WindowsApps;D:\Software\VScode\Microsoft VS Code\bin;D:\Software\PyCharm 2019.3.3\bin;D:\Software\tesseract\Tesseract-OCR;C:\Users\wangli\go\bin;D:\Software\MySql\mysql-5.7.38-winx64\bin;C:\Users\wangli\AppData\Roaming\npm;D:\Software\IntelliJ IDEA 2020.2\bin;D:\Software\MinGW\mingw64\bin;
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Software\tesseract\Tesseract-OCR;D:\Software\Git\cmd;D:\Golangenvr\bin;D:\Software\Xshell7\;D:\Software\Xftp7\;D:\Software\MySql\mysql-5.7.38-winx64\bin;D:\Software\΢��web�����߹���\dll;D:\Software\node\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Golangenvr\bin;D:\Software\scoop\shims;d:/Software/scoop\shims;D:\Program\Scripts\;D:\Program\;C:\Users\wangli\AppData\Local\Microsoft\WindowsApps;D:\Software\VScode\Microsoft VS Code\bin;D:\Software\PyCharm 2019.3.3\bin;D:\Software\tesseract\Tesseract-OCR;C:\Users\wangli\go\bin;D:\Software\MySql\mysql-5.7.38-winx64\bin;C:\Users\wangli\AppData\Roaming\npm;D:\Software\IntelliJ IDEA 2020.2\bin;D:\Software\MinGW\mingw64\bin;D:\Golangenvr\bin;
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -101,7 +101,7 @@ INTELLIJ IDEA = D:\Software\IntelliJ IDEA 2020.2\bin;
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6268_OVSEYIRYVRIJTMIM
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8792_SIJOXKFWFDOTTLEW
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -223,7 +223,7 @@ PROCESSOR_LEVEL = 23
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 6268
+VSCODE_PID = 8792
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-KAG98383
 # variable set hash-table stats:
@@ -235,9 +235,9 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-KAG98383
 
 # Directories
 
-# . (key d:/ProgramPro/workspace/go/simplebank, mtime 1656986777): 14 files, no impossibilities.
+# . (key d:/ProgramPro/workspace/go/simplebank, mtime 1657012172): 15 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -353,12 +353,12 @@ migratedown:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 28 / storage = 210 B / avg = 7 B
-# current buf: size = 8162 B / used = 210 B / count = 28 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 218 B / avg = 7 B
+# current buf: size = 8162 B / used = 218 B / count = 29 / avg = 7 B
 
-# strcache performance: lookups = 47 / hit rate = 40%
+# strcache performance: lookups = 48 / hit rate = 39%
 # hash-table stats:
-# Load=28/8192=0%, Rehash=0, Collisions=1/47=2%
-# Finished Make data base on Tue Jul 05 16:52:18 2022
+# Load=29/8192=0%, Rehash=0, Collisions=1/48=2%
+# Finished Make data base on Fri Jul 08 11:59:18 2022
 
  

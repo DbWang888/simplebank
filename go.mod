@@ -1,4 +1,4 @@
-module simplebank
+module github.com/DbWang888/simplebank
 
 go 1.16
 
