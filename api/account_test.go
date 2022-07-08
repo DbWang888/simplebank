@@ -100,7 +100,7 @@ func TestGetAccountAPI(t *testing.T) {
 			server := NewServer(store)
 			recorder := httptest.NewRecorder() //测试环境不用调用真正的http请求，使用httptest创建recorder
 
-			url := fmt.Sprintf("/account/%d", tc.accountID)
+			url := fmt.Sprintf("/accounts/%d", tc.accountID)
 			request, err := http.NewRequest(http.MethodGet, url, nil)
 
 			require.NoError(t, err)

@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 08 11:59:18 2022
+# Make data base, printed on Fri Jul 08 22:18:06 2022
 
 # Variables
 
@@ -24,8 +24,6 @@ GNUMAKEFLAGS :=
 MAKEFLAGS = pqrR
 # environment
 TESSDATA_PREFIX = D:\Software\tesseract\Tesseract-OCR\tessdata
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -43,7 +41,7 @@ SHELL := sh.exe
 # environment
 WINDIR = C:\Windows
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\wangli\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\wangli\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\wangli\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\wangli\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_translationsConfigFile":"C:\\Users\\wangli\\AppData\\Roaming\\Code\\clp\\c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\wangli\\AppData\\Roaming\\Code\\clp\\c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\wangli\\AppData\\Roaming\\Code\\clp\\c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn\\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"C:\\Users\\wangli\\AppData\\Roaming\\Code\\clp\\c9280508cf500dcd9c4c87fe2a1b08e9.zh-cn\\corrupted.info","_languagePackSupport":true}
 # environment
 ONEDRIVE = C:\Users\wangli\OneDrive
 # environment
@@ -57,13 +55,9 @@ TMP = C:\Users\wangli\AppData\Local\Temp
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
 PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
-# environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5328f21a-28c2-479d-bb3e-111eb7aa1302-sock
 # environment
 VSCODE_CWD = D:\Software\VScode\Microsoft VS Code
 # environment
@@ -87,8 +81,6 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 GOPATH = D:\Golangenvr
 # environment
-VSCODE_LOG_STACK = false
-# environment
 NUMBER_OF_PROCESSORS = 16
 # environment
 ELECTRON_RUN_AS_NODE = 1
@@ -101,9 +93,7 @@ INTELLIJ IDEA = D:\Software\IntelliJ IDEA 2020.2\bin;
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8792_SIJOXKFWFDOTTLEW
-# environment
-VSCODE_PIPE_LOGGING = true
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3560_UUVOAPNUDSCQVAPG
 # environment
 COMPUTERNAME = LAPTOP-KAG98383
 # environment
@@ -123,7 +113,7 @@ PUBLIC = C:\Users\Public
 # environment
 GOMODCACHE = D:\Golangenvr\pkg\mod
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\wangli\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\wangli\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -167,7 +157,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\2a8f9b07edccabdcbdc54aa8bacda12d-1.68.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\2a8f9b07edccabdcbdc54aa8bacda12d-1.69.0-main-sock
 # environment
 HOMEPATH = \Users\wangli
 # environment
@@ -223,11 +213,11 @@ PROCESSOR_LEVEL = 23
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 8792
+VSCODE_PID = 3560
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-KAG98383
 # variable set hash-table stats:
-# Load=107/1024=10%, Rehash=0, Collisions=17/128=13%
+# Load=102/1024=10%, Rehash=0, Collisions=17/123=14%
 
 # Pattern-specific Variable Values
 
@@ -235,7 +225,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-KAG98383
 
 # Directories
 
-# . (key d:/ProgramPro/workspace/go/simplebank, mtime 1657012172): 15 files, no impossibilities.
+# . (key d:/ProgramPro/workspace/go/simplebank, mtime 1657284336): 15 files, no impossibilities.
 
 # 15 files, no impossibilities in 1 directories.
 
@@ -260,7 +250,7 @@ all:
 #  File does not exist.
 #  File has not been updated.
 
-.PHONY: postgres createdb dropdb migrateup migratedown showgcc server
+.PHONY: postgres createdb dropdb migrateup migratedown showgcc server mock
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -281,7 +271,7 @@ sqlc-generate:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-05 10:12:59
+#  Last modified 2022-07-08 22:14:52
 #  File has been updated.
 #  Successfully updated.
 
@@ -345,20 +335,28 @@ migratedown:
 #  recipe to execute (from 'Makefile', line 14):
 	migrate -path db/migration -database "postgresql://root:4524@localhost:5432/simple_bank?sslmode=disable" -verbose down
 
+mock:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 29):
+	mockgen -package mockdb -destination db/mock/store.go simplebank/db/sqlc Store
+
 # files hash-table stats:
-# Load=15/1024=1%, Rehash=0, Collisions=0/32=0%
+# Load=16/1024=2%, Rehash=0, Collisions=0/34=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 29 / storage = 218 B / avg = 7 B
-# current buf: size = 8162 B / used = 218 B / count = 29 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 30 / storage = 223 B / avg = 7 B
+# current buf: size = 8162 B / used = 223 B / count = 30 / avg = 7 B
 
-# strcache performance: lookups = 48 / hit rate = 39%
+# strcache performance: lookups = 51 / hit rate = 41%
 # hash-table stats:
-# Load=29/8192=0%, Rehash=0, Collisions=1/48=2%
-# Finished Make data base on Fri Jul 08 11:59:18 2022
+# Load=30/8192=0%, Rehash=0, Collisions=1/51=2%
+# Finished Make data base on Fri Jul 08 22:18:06 2022
 
  
