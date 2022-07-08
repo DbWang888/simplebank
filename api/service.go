@@ -1,7 +1,8 @@
 package api
 
 import (
-	db "github.com/DbWang888/simplebank/db/sqlc"
+	db "simplebank/db/sqlc"
+
 	"github.com/gin-gonic/gin"
 )
 
