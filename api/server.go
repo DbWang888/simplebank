@@ -24,6 +24,8 @@ func NewServer(store db.Store) *Server {
 		v.RegisterValidation("currency", validCurrency) //绑定的标签名称以及自定义验证器
 	}
 
+	router.POST("/users", server.CreateUser)
+
 	router.POST("/accounts", server.createAccount)
 	router.GET("/accounts/:id", server.getAccount)
 	router.GET("/accounts", server.listAccount)
