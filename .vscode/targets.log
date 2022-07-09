@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 08 22:18:06 2022
+# Make data base, printed on Sat Jul 09 15:57:15 2022
 
 # Variables
 
@@ -93,7 +93,7 @@ INTELLIJ IDEA = D:\Software\IntelliJ IDEA 2020.2\bin;
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3560_UUVOAPNUDSCQVAPG
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12292_GXYKAFGMSSDBQFEE
 # environment
 COMPUTERNAME = LAPTOP-KAG98383
 # environment
@@ -213,7 +213,7 @@ PROCESSOR_LEVEL = 23
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 3560
+VSCODE_PID = 12292
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-KAG98383
 # variable set hash-table stats:
@@ -357,6 +357,6 @@ mock:
 # strcache performance: lookups = 51 / hit rate = 41%
 # hash-table stats:
 # Load=30/8192=0%, Rehash=0, Collisions=1/51=2%
-# Finished Make data base on Fri Jul 08 22:18:06 2022
+# Finished Make data base on Sat Jul 09 15:57:15 2022
 
  
