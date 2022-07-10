@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 09 15:57:15 2022
+# Make data base, printed on Sun Jul 10 17:52:12 2022
 
 # Variables
 
@@ -93,7 +93,7 @@ INTELLIJ IDEA = D:\Software\IntelliJ IDEA 2020.2\bin;
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12292_GXYKAFGMSSDBQFEE
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4944_QONDNYZYGDPHXKOK
 # environment
 COMPUTERNAME = LAPTOP-KAG98383
 # environment
@@ -213,7 +213,7 @@ PROCESSOR_LEVEL = 23
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 12292
+VSCODE_PID = 4944
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-KAG98383
 # variable set hash-table stats:
@@ -225,7 +225,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-KAG98383
 
 # Directories
 
-# . (key d:/ProgramPro/workspace/go/simplebank, mtime 1657284336): 15 files, no impossibilities.
+# . (key d:/ProgramPro/workspace/go/simplebank, mtime 1657357118): 15 files, no impossibilities.
 
 # 15 files, no impossibilities in 1 directories.
 
@@ -250,7 +250,15 @@ all:
 #  File does not exist.
 #  File has not been updated.
 
-.PHONY: postgres createdb dropdb migrateup migratedown showgcc server mock
+migratedown1:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	migrate -path db/migration -database "postgresql://root:4524@localhost:5432/simple_bank?sslmode=disable" -verbose down 1
+
+.PHONY: postgres createdb dropdb migrateup migratedown migrateup1 migratedown1 showgcc server mock
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -265,13 +273,13 @@ sqlc-generate:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 17):
+#  recipe to execute (from 'Makefile', line 23):
 	docker run --rm -v "d:\ProgramPro\workspace\go\simplebank:/src" -w /src kjconroy/sqlc generate
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-08 22:14:52
+#  Last modified 2022-07-09 16:58:04
 #  File has been updated.
 #  Successfully updated.
 
@@ -280,21 +288,21 @@ server:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 26):
+#  recipe to execute (from 'Makefile', line 32):
 	go run main.go
 
 sqlc-init:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 20):
+#  recipe to execute (from 'Makefile', line 26):
 	docker run --rm -v "d:\ProgramPro\workspace\go\simplebank:/src" -w /src kjconroy/sqlc init
 
 test:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 23):
+#  recipe to execute (from 'Makefile', line 29):
 	go test -v -cover ./...
 
 createdb:
@@ -327,6 +335,14 @@ migrateup:
 #  recipe to execute (from 'Makefile', line 11):
 	migrate -path db/migration -database "postgresql://root:4524@localhost:5432/simple_bank?sslmode=disable" -verbose up
 
+migrateup1:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	migrate -path db/migration -database "postgresql://root:4524@localhost:5432/simple_bank?sslmode=disable" -verbose up 1
+
 migratedown:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -340,23 +356,23 @@ mock:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 29):
+#  recipe to execute (from 'Makefile', line 35):
 	mockgen -package mockdb -destination db/mock/store.go simplebank/db/sqlc Store
 
 # files hash-table stats:
-# Load=16/1024=2%, Rehash=0, Collisions=0/34=0%
+# Load=18/1024=2%, Rehash=0, Collisions=0/38=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 223 B / avg = 7 B
-# current buf: size = 8162 B / used = 223 B / count = 30 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 32 / storage = 247 B / avg = 7 B
+# current buf: size = 8162 B / used = 247 B / count = 32 / avg = 7 B
 
-# strcache performance: lookups = 51 / hit rate = 41%
+# strcache performance: lookups = 57 / hit rate = 43%
 # hash-table stats:
-# Load=30/8192=0%, Rehash=0, Collisions=1/51=2%
-# Finished Make data base on Sat Jul 09 15:57:15 2022
+# Load=32/8192=0%, Rehash=0, Collisions=1/57=2%
+# Finished Make data base on Sun Jul 10 17:52:12 2022
 
  
