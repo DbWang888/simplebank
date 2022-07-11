@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul 10 17:52:12 2022
+# Make data base, printed on Mon Jul 11 12:19:48 2022
 
 # Variables
 
@@ -93,7 +93,7 @@ INTELLIJ IDEA = D:\Software\IntelliJ IDEA 2020.2\bin;
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4944_QONDNYZYGDPHXKOK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23856_GGUAXOXBHCVJHREL
 # environment
 COMPUTERNAME = LAPTOP-KAG98383
 # environment
@@ -213,7 +213,7 @@ PROCESSOR_LEVEL = 23
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 4944
+VSCODE_PID = 23856
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-KAG98383
 # variable set hash-table stats:
@@ -225,9 +225,9 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-KAG98383
 
 # Directories
 
-# . (key d:/ProgramPro/workspace/go/simplebank, mtime 1657357118): 15 files, no impossibilities.
+# . (key d:/ProgramPro/workspace/go/simplebank, mtime 1657455464): 16 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -367,12 +367,12 @@ mock:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 32 / storage = 247 B / avg = 7 B
-# current buf: size = 8162 B / used = 247 B / count = 32 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 33 / storage = 253 B / avg = 7 B
+# current buf: size = 8162 B / used = 253 B / count = 33 / avg = 7 B
 
-# strcache performance: lookups = 57 / hit rate = 43%
+# strcache performance: lookups = 58 / hit rate = 43%
 # hash-table stats:
-# Load=32/8192=0%, Rehash=0, Collisions=1/57=2%
-# Finished Make data base on Sun Jul 10 17:52:12 2022
+# Load=33/8192=0%, Rehash=0, Collisions=1/58=2%
+# Finished Make data base on Mon Jul 11 12:19:48 2022
 
  
